@@ -37,7 +37,7 @@ class BoardingLayout extends StatelessWidget {
                 width: double.infinity,
                 padding: EdgeInsets.symmetric(vertical: 20.h, horizontal: 22.w),
                 decoration: BoxDecoration(
-                  color: AppColors.kBgColorColor,
+                  color: AppColors.kBgColor,
                 ),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
