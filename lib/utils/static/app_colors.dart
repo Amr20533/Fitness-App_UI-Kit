@@ -35,6 +35,7 @@ class AppColors{
   static Color kRedProgressColor  = Color(0xffED4747);
 
   static Color kGreyCardColor = Color.fromRGBO(25, 33, 38, 0.1);
+  static Color kSecGreyCardColor = Color.fromRGBO(25, 33, 38, 0.7);
   static Color kAmberCardColor  = Color(0xffF8D39D);
   static Color kRedCardColor  = Color(0xffF9B9B9);
   static Color kCyanCardColor  = Color(0xffAED1E0);
