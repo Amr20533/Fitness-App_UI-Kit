@@ -6,6 +6,8 @@ class AppAssets{
   static const String loginSignup = "$imagesPath/start/Login_signup.png";
   static const String boarding = "$imagesPath/start/boarding.png";
   static const String map = "$imagesPath/start/Map.png";
+  static const String loginBg = "$imagesPath/start/login.png";
+  static const String signupBg = "$imagesPath/start/signup.png";
 
   ///social icons
   static const String apple = "$iconsPath/apple.png";
@@ -29,5 +31,6 @@ class AppAssets{
   static const String timer = "$iconsPath/timer.png";
   static const String calorie = "$iconsPath/calorie.png";
   static const String search = "$iconsPath/search.svg";
+  static const String backArrow = "$iconsPath/arrow_back.svg";
 
 }

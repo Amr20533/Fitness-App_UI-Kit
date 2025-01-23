@@ -5,7 +5,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 class CustomRoundedButton extends StatelessWidget {
   const CustomRoundedButton({
     super.key,
-    this.onPressed,
+    required this.onPressed,
     required this.text,
   });
   final String text;

@@ -1,4 +1,4 @@
-import 'package:fitness_app_ui_kit/components/shared_components.dart';
+import 'package:fitness_app_ui_kit/components/shared_components/custom_rounded_button.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_assets.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_context.dart';
