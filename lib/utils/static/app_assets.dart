@@ -8,6 +8,7 @@ class AppAssets{
   static const String map = "$imagesPath/start/Map.png";
   static const String loginBg = "$imagesPath/start/login.png";
   static const String signupBg = "$imagesPath/start/signup.png";
+  static const String exploreHeader = "$imagesPath/start/explore_header.png";
 
   ///social icons
   static const String apple = "$iconsPath/apple.png";

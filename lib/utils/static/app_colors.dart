@@ -14,6 +14,7 @@ class AppColors{
   static const Color kPrimaryBlackColor = Color(0xff151616);
   static Color kSecondaryBlackColor = Color(0xff192126);
   static const Color kBlackColor = Color(0xff1E1E1E);
+  static const Color kShaderColor = Color.fromRGBO(0, 0, 0, 0.8);
 
   static Color kPurpleColor  = Color(0xffA48AED);
   static Color kCyanColor  = Color(0xff95CCE3);
@@ -43,6 +44,7 @@ class AppColors{
   static Color kRedCardColor  = Color(0xffF9B9B9);
   static Color kCyanCardColor  = Color(0xffAED1E0);
   static Color kPurpleCardColor  = Color(0xffD6BBF8);
+  static Color kRecordCardColor  = Color(0xffF1F1F1);
   static Color kLightWhiteCardColor  = Color.fromRGBO(255, 255, 255, 0.8);
 
   static LinearGradient blackGradient = LinearGradient(

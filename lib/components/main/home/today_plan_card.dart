@@ -1,6 +1,4 @@
-import 'package:fitness_app_ui_kit/components/main/home/record_card.dart';
 import 'package:fitness_app_ui_kit/models/today_plan_model.dart';
-import 'package:fitness_app_ui_kit/utils/static/app_assets.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

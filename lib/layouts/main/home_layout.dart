@@ -1,6 +1,7 @@
 import 'package:fitness_app_ui_kit/components/main/home/popular_workout_slider.dart';
 import 'package:fitness_app_ui_kit/components/main/home/search_box.dart';
 import 'package:fitness_app_ui_kit/components/main/home/today_plan_slider.dart';
+import 'package:fitness_app_ui_kit/components/shared_components/custom_title.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -29,15 +30,9 @@ class HomeLayout extends StatelessWidget {
             ),
           ),
           SearchBox(),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20.w),
-            child: Text("Popular Workouts", style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w900)),
-          ),
+          CustomTitle(title: "Popular Workouts"),
           PopularWorkoutSlider(),
-          Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20.w),
-            child: Text("Today Plan", style: Theme.of(context).textTheme.titleLarge!.copyWith(fontWeight: FontWeight.w900)),
-          ),
+          CustomTitle(title: "Today Plan"),
           TodayPlanSlider(),
 
         ],
@@ -45,7 +40,3 @@ class HomeLayout extends StatelessWidget {
     );
   }
 }
-
-
-
-
