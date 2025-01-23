@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "title": "Leg Exercises",
+      "duration": "10 Min",
+      "level": "Beginner",
+      "image": "assets/images/warm_up/leg.png",
+      "description": "A gentle warm-up routine focusing on leg muscles to prepare your body for more intense workouts. Ideal for beginners."
+    },
+    {
+      "title": "Backward Lunges",
+      "duration": "5 Min",
+      "level": "Beginner",
+      "image": "assets/images/warm_up/lung.png",
+      "description": "A quick and simple warm-up exercise to improve flexibility, balance, and activate your lower body muscles. Perfect for beginners."
+    }
+  ]
+}

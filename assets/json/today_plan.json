@@ -1,0 +1,25 @@
+{
+  "data" : [
+    {
+      "exercise": "Push Up",
+      "description": "100 Push up a day",
+      "level": "Intermediate",
+      "image": "assets/images/today_plan/push_up.png",
+      "progress": 45
+    },
+    {
+      "exercise": "Sit Up",
+      "description": "20 Sit up a day",
+      "level": "Beginner",
+      "image": "assets/images/today_plan/sit_up.png",
+      "progress": 75
+    },
+    {
+      "exercise": "Knee Push Up",
+      "description": "20 Sit up a day",
+      "level": "Beginner",
+      "image": "assets/images/today_plan/knee_push_up.png",
+      "progress": 45
+    }
+  ]
+}

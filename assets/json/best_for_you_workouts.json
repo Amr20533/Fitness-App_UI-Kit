@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "title": "Belly Fat Burner",
+      "duration": "10 Min",
+      "level": "Beginner",
+      "image": "assets/images/best_for_you/belly_fat.png",
+      "description": "A quick and effective workout targeting belly fat. Perfect for beginners to kickstart their fitness journey and burn calories."
+    },
+    {
+      "title": "Lose Fat",
+      "duration": "10 Min",
+      "level": "Beginner",
+      "image": "assets/images/best_for_you/loose_fat.png",
+      "description": "An easy-to-follow fat-loss workout designed for beginners. Helps to burn calories and improve overall fitness."
+    },
+    {
+      "title": "Plank",
+      "duration": "5 Min",
+      "level": "Beginner",
+      "image": "assets/images/best_for_you/plank.png",
+      "description": "A short but powerful core-strengthening workout. Perfect for beginners to improve core stability and endurance."
+    },
+    {
+      "title": "Build Wider Biceps",
+      "duration": "30 Min",
+      "level": "Intermediate",
+      "image": "assets/images/best_for_you/biceps.png",
+      "description": "An intermediate-level workout focusing on building strength and muscle mass in your biceps. Ideal for those looking to enhance arm size and definition."
+    }
+  ]
+}

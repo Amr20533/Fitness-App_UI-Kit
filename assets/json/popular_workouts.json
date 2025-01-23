@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "title": "Lower Body Training",
+      "calories": "500 Kcal",
+      "duration": "50 Min",
+      "image": "assets/images/popular_workouts/lower_body.png",
+      "description": "A focused lower-body workout designed to strengthen and tone your legs, glutes, and core muscles. Perfect for building endurance and burning calories efficiently."
+    },
+    {
+      "title": "Hand Training",
+      "calories": "600 Kcal",
+      "duration": "40 Min",
+      "image": "assets/images/popular_workouts/hand_training.png",
+      "description": "An intensive upper-body workout to build strength and flexibility in your arms, wrists, and shoulders. Great for improving grip and enhancing overall arm endurance."
+    }
+  ]
+}

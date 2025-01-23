@@ -1,0 +1,22 @@
+{
+  "data": [
+    {
+      "title": "Plank",
+      "type": "Challenge",
+      "image": "assets/images/challenges/plank_challenge.png",
+      "description": "Test your endurance and core strength with this plank challenge. Hold your plank position for as long as you can and beat your personal record!"
+    },
+    {
+      "title": "Sprint",
+      "type": "Challenge",
+      "image": "assets/images/challenges/sprint_challenge.png",
+      "description": "Push your limits with this sprint challenge. Cover as much distance as possible in a short burst of speed. A perfect way to test your stamina and power!"
+    },
+    {
+      "title": "Squat",
+      "type": "Challenge",
+      "image": "assets/images/challenges/squat_challenge.png",
+      "description": "Strengthen your legs and glutes with this squat challenge. Perform as many squats as you can in a set time. Aim to improve every day!"
+    }
+  ]
+}
