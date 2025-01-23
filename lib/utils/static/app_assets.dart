@@ -3,9 +3,9 @@ class AppAssets{
   static const String iconsPath = "assets/icons";
 
   ///today plan
-  static const String sitUp = "$imagesPath/today_plan/sit_up.png";
-  static const String kneePushUp = "$imagesPath/today_plan/knee_push_up.png";
-  static const String pushUp = "$imagesPath/today_plan/push_up.png";
+  static const String loginSignup = "$imagesPath/start/Login_signup.png";
+  static const String boarding = "$imagesPath/start/boarding.png";
+  static const String map = "$imagesPath/start/Map.png";
 
   ///social icons
   static const String apple = "$iconsPath/apple.png";

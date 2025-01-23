@@ -17,6 +17,9 @@ dependencies:
   svg_flutter:
   google_fonts:
   intl:
+  animated_text_kit:
+  flutter_screenutil:
+  percent_indicator:
 
 dev_dependencies:
   flutter_test:
