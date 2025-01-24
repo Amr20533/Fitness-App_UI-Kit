@@ -21,6 +21,7 @@ dependencies:
   flutter_screenutil:
   percent_indicator:
   google_nav_bar:
+  fl_chart:
 
 dev_dependencies:
   flutter_test:

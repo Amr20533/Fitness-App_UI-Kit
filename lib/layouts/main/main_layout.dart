@@ -1,3 +1,4 @@
+import 'package:fitness_app_ui_kit/layouts/main/analytics_layout.dart';
 import 'package:fitness_app_ui_kit/layouts/main/explore_layout.dart';
 import 'package:fitness_app_ui_kit/layouts/main/home_layout.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
@@ -18,7 +19,7 @@ class _MainLayoutState extends State<MainLayout> {
   final List<Widget> _screens = [
     HomeLayout(),
     ExploreLayout(),
-    Center(child: Text('Profile Screen')),
+    AnalyticsLayout(),
     Center(child: Text('Settings Screen')),
   ];
 
