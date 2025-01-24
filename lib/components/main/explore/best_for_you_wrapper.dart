@@ -1,5 +1,5 @@
 import 'package:fitness_app_ui_kit/components/main/explore/best_for_you_card.dart';
-import 'package:fitness_app_ui_kit/models/best_for_you/best_for_you_model.dart';
+import 'package:fitness_app_ui_kit/models/best_for_you_model.dart';
 import 'package:flutter/material.dart';
 import 'package:fitness_app_ui_kit/utils/helpers/json_helper.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -22,7 +22,7 @@ class BestForYouWrapper extends StatelessWidget {
           final bestForYouData = snapshot.data!;
 
           return SizedBox(
-            height: 209.h,
+            height: 183.h,
             child: ListView.separated(
               scrollDirection: Axis.horizontal,
               itemCount: (bestForYouData.length / 2).ceil(),

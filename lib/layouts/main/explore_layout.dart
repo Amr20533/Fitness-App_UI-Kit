@@ -1,4 +1,6 @@
 import 'package:fitness_app_ui_kit/components/main/explore/best_for_you_wrapper.dart';
+import 'package:fitness_app_ui_kit/components/main/explore/challenges_slider.dart';
+import 'package:fitness_app_ui_kit/components/main/explore/warm_up_slider.dart';
 import 'package:fitness_app_ui_kit/components/shared_components/custom_text_button.dart';
 import 'package:fitness_app_ui_kit/components/shared_components/custom_title.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_assets.dart';
@@ -64,7 +66,11 @@ class ExploreLayout extends StatelessWidget {
             )
           ),
           CustomTitle(title: "Best for you"),
-          BestForYouWrapper()
+          BestForYouWrapper(),
+          CustomTitle(title: "Challenge"),
+          ChallengesSlider(),
+          CustomTitle(title: "Fast Warmup"),
+          WarmUpSlider(),
 
         ],
       ),

@@ -1,22 +1,22 @@
 import 'package:fitness_app_ui_kit/components/main/explore/info_card.dart';
-import 'package:fitness_app_ui_kit/models/best_for_you_model.dart';
+import 'package:fitness_app_ui_kit/models/warm_up_model.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_context.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-class BestForYouCard extends StatelessWidget {
-  const BestForYouCard({
+class WarmUpCard extends StatelessWidget {
+  const WarmUpCard({
     super.key,
-    required this.bestForYou,
+    required this.warmUpModel,
   });
 
-  final BestForYouModel bestForYou;
+  final WarmUpModel warmUpModel;
   @override
   Widget build(BuildContext context) {
     return Container(
       height: 86.h,
-      width: 250.w,
+      width: 210.w,
       padding: EdgeInsets.symmetric(horizontal: 7.w, vertical: 7.h),
       decoration: BoxDecoration(
         color: AppColors.kPrimaryWhiteColor,
@@ -32,7 +32,7 @@ class BestForYouCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(4.sp),
               image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage(bestForYou.image),
+                image: AssetImage(warmUpModel.image),
               ),
             ),
           ),
@@ -41,17 +41,19 @@ class BestForYouCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                width: 150.w,
+                width: 110.w,
                 child: Text(
-                  bestForYou.title,
+                  warmUpModel.title,
                   style: Theme.of(AppContext.context)
                       .textTheme
                       .bodyMedium!
                       .copyWith(fontSize: 13.sp),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                 ),
               ),
-              InfoCard(text: bestForYou.duration),
-              InfoCard(text: bestForYou.level),
+              InfoCard(text: warmUpModel.duration),
+              InfoCard(text: warmUpModel.level),
             ],
           ),
         ],
