@@ -1,10 +1,17 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 
 ThemeData get lightTheme => ThemeData(
   scaffoldBackgroundColor: AppColors.kBgColor,
+    appBarTheme: AppBarTheme(
+      systemOverlayStyle: SystemUiOverlayStyle(
+        statusBarBrightness: Brightness.dark,
+        systemNavigationBarIconBrightness: Brightness.dark
+      )
+    ),
     textTheme: GoogleFonts.latoTextTheme(
         TextTheme(
           headlineLarge: TextStyle(

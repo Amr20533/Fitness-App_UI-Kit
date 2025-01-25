@@ -7,6 +7,8 @@ class AppColors{
   static const Color kPrimaryWhiteColor = Color(0xffFDFEFF);
   static const Color kWhiteColor = Color(0xffFFFFFF);
   static const Color kBgColor = Color(0xffF7F6FA);
+  static const Color kSecWhiteColor = Color.fromRGBO(255, 255, 255, 0.5);
+  static const Color kDividerColor = Color.fromRGBO(255, 255, 255, 0.25);
 
   static const Color kGreyColor  = Color(0xff384046);
   static const Color kSecondaryGreyColor  = Color(0xffFAFBF9);
@@ -58,6 +60,16 @@ class AppColors{
     colors: [
       Color.fromRGBO(0, 0, 0, 1.0),
       Color.fromRGBO(0, 0, 0, 0),
+    ],
+    stops: [0.0, 1.0],
+  );
+
+  static LinearGradient secBlackGradient = LinearGradient(
+    begin: Alignment.bottomCenter,
+    end: Alignment.topCenter,
+    colors: [
+      Color.fromRGBO(29, 29, 29, 1.0),
+      Color.fromRGBO(104, 104, 104, 0),
     ],
     stops: [0.0, 1.0],
   );

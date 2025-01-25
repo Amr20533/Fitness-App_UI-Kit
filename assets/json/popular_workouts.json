@@ -5,14 +5,50 @@
       "calories": "500 Kcal",
       "duration": "50 Min",
       "image": "assets/images/popular_workouts/lower_body.png",
-      "description": "A focused lower-body workout designed to strengthen and tone your legs, glutes, and core muscles. Perfect for building endurance and burning calories efficiently."
+      "background": "assets/images/popular_workouts/lower_body_bg.png",
+      "description": "A focused lower-body workout designed to strengthen and tone your legs, glutes, and core muscles. Perfect for building endurance and burning calories efficiently.",
+      "workouts": [
+        {
+          "title": "Jumping Jacks",
+          "duration": "00:30",
+          "image": "assets/images/popular_workouts/jumping_jacks.png"
+        },
+        {
+          "title": "Squats",
+          "duration": "01:00",
+          "image": "assets/images/popular_workouts/squat.png"
+        },
+        {
+          "title": "Backward Lunge",
+          "duration": "01:00",
+          "image": "assets/images/popular_workouts/lungs.png"
+        }
+      ]
     },
     {
       "title": "Hand Training",
       "calories": "600 Kcal",
       "duration": "40 Min",
       "image": "assets/images/popular_workouts/hand_training.png",
-      "description": "An intensive upper-body workout to build strength and flexibility in your arms, wrists, and shoulders. Great for improving grip and enhancing overall arm endurance."
+      "background": "assets/images/popular_workouts/hand_training.png",
+      "description": "An intensive upper-body workout to build strength and flexibility in your arms, wrists, and shoulders. Great for improving grip and enhancing overall arm endurance.",
+      "workouts": [
+        {
+          "title": "Jumping Jacks",
+          "duration": "00:30",
+          "image": "assets/images/popular_workouts/jumping_jacks.png"
+        },
+        {
+          "title": "Pull Ups",
+          "duration": "01:00",
+          "image": "assets/images/popular_workouts/pull_ups.jpg"
+        },
+        {
+          "title": "Push Ups",
+          "duration": "01:00",
+          "image": "assets/images/popular_workouts/push_ups.jpg"
+        }
+      ]
     }
   ]
 }

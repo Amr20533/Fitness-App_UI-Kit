@@ -33,5 +33,8 @@ class AppAssets{
   static const String calorie = "$iconsPath/calorie.png";
   static const String search = "$iconsPath/search.svg";
   static const String backArrow = "$iconsPath/arrow_back.svg";
+  // static const String timer1 = "$iconsPath/timer_1.png";
+  static const String timer1 = "$iconsPath/ic_time.png";
+  static const String burn = "$iconsPath/burn_1.png";
 
 }

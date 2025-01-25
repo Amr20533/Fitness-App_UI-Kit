@@ -1,10 +1,6 @@
-import 'package:fitness_app_ui_kit/components/main/analytics/bpm_chart.dart';
 import 'package:fitness_app_ui_kit/components/main/analytics/custom_report_card.dart';
 import 'package:fitness_app_ui_kit/components/main/analytics/day_selector_slider.dart';
 import 'package:fitness_app_ui_kit/components/main/analytics/sleep_bar_chart.dart';
-import 'package:fitness_app_ui_kit/components/main/home/popular_workout_slider.dart';
-import 'package:fitness_app_ui_kit/components/main/home/search_box.dart';
-import 'package:fitness_app_ui_kit/components/main/home/today_plan_slider.dart';
 import 'package:fitness_app_ui_kit/components/shared_components/custom_title.dart';
 import 'package:fitness_app_ui_kit/utils/helpers/format_helper.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_assets.dart';
@@ -12,7 +8,7 @@ import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:percent_indicator/percent_indicator.dart';
-import 'package:svg_flutter/svg.dart';
+import 'package:liquid_progress_indicator_v2/liquid_progress_indicator.dart';
 
 class AnalyticsLayout extends StatelessWidget {
   const AnalyticsLayout({super.key});
@@ -218,14 +214,24 @@ class AnalyticsLayout extends StatelessWidget {
                         height: 58.h,
                         margin: EdgeInsets.only(top: 5.h),
                         decoration: BoxDecoration(
-                            color: AppColors.kWhiteColor,
-                            borderRadius: BorderRadius.only(bottomLeft: Radius.circular(7.sp), bottomRight: Radius.circular(7.sp))
+                          color: AppColors.kWhiteColor,
+                          borderRadius: BorderRadius.only(
+                            bottomLeft: Radius.circular(13.sp),
+                            bottomRight: Radius.circular(13.sp),
+                          ),
                         ),
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                          children: [
-
-                          ],
+                        child: LiquidLinearProgressIndicator(
+                          value: 0.7,
+                          valueColor: AlwaysStoppedAnimation(AppColors.kCyanColor),
+                          backgroundColor: AppColors.kWhiteColor,
+                          borderRadius: 13.sp,
+                          borderColor: AppColors.kWhiteColor,
+                          borderWidth: 0,
+                          direction: Axis.vertical,
+                          center: Text(
+                            '6/8',
+                            style: Theme.of(context).textTheme.bodySmall!.copyWith(color: AppColors.kSecondaryBlackColor, fontSize: 13.sp),
+                          ),
                         ),
                       )
                   ),
