@@ -1,3 +1,4 @@
+import 'package:fitness_app_ui_kit/utils/static/app_colors.dart';
 import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 
@@ -6,16 +7,18 @@ class BPMChart extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BarChart(
-      BarChartData(
-        maxY: 100,
-        minY: 0,
-        borderData: FlBorderData(show: false),
-        gridData: FlGridData(show: false),
-        titlesData: FlTitlesData(show: false),
-        barGroups: _generateBarGroups(),
-        barTouchData: BarTouchData(enabled: false),
-        alignment: BarChartAlignment.center,
+    return Center(
+      child: BarChart(
+        BarChartData(
+          maxY: 100,
+          minY: 0,
+          borderData: FlBorderData(show: false),
+          gridData: FlGridData(show: false),
+          titlesData: FlTitlesData(show: false),
+          barGroups: _generateBarGroups(),
+          barTouchData: BarTouchData(enabled: false),
+          alignment: BarChartAlignment.center,
+        ),
       ),
     );
   }
@@ -26,7 +29,7 @@ class BPMChart extends StatelessWidget {
       10, 90, 35, 45, 75, 80, 20, 65, 50, 30,
       85, 25, 15, 60, 40
     ];
-    final Color activeColor = Colors.purple;
+    final Color activeColor = AppColors.kRedProgressColor;
 
     return List.generate(
       values.length,

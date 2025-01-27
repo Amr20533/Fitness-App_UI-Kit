@@ -6,11 +6,15 @@ class DayCard extends StatelessWidget {
   const DayCard({
     super.key,
     required this.onTap,
+    required this.dayLetter,
+    required this.dayNumber,
     this.isSelected = false,
   });
 
   final bool isSelected;
   final VoidCallback onTap;
+  final String dayLetter;
+  final String dayNumber;
 
   @override
   Widget build(BuildContext context) {
@@ -33,8 +37,8 @@ class DayCard extends StatelessWidget {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text("W", style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 14.sp, color: isSelected ? AppColors.kWhiteColor : AppColors.kSecondaryBlackColor)),
-                  Text("10", style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 14.sp, color: isSelected ? AppColors.kWhiteColor : AppColors.kSecondaryBlackColor)),
+                  Text(dayLetter, style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 14.sp, color: isSelected ? AppColors.kWhiteColor : AppColors.kSecondaryBlackColor)),
+                  Text(dayNumber, style: Theme.of(context).textTheme.bodyLarge!.copyWith(fontSize: 14.sp, color: isSelected ? AppColors.kWhiteColor : AppColors.kSecondaryBlackColor)),
                 ],
               ),
             ),

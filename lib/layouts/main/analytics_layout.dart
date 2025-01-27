@@ -1,6 +1,7 @@
 import 'package:fitness_app_ui_kit/components/main/analytics/custom_report_card.dart';
 import 'package:fitness_app_ui_kit/components/main/analytics/day_selector_slider.dart';
 import 'package:fitness_app_ui_kit/components/main/analytics/sleep_bar_chart.dart';
+import 'package:fitness_app_ui_kit/components/main/analytics/bpm_chart.dart';
 import 'package:fitness_app_ui_kit/components/shared_components/custom_title.dart';
 import 'package:fitness_app_ui_kit/utils/helpers/format_helper.dart';
 import 'package:fitness_app_ui_kit/utils/static/app_assets.dart';
@@ -122,21 +123,32 @@ class AnalyticsLayout extends StatelessWidget {
                     child: Container(
                       height: 99.h,
                       margin: EdgeInsets.only(top: 5.h),
+                      padding: EdgeInsets.symmetric(horizontal: 13.w, vertical: 12.h),
                       decoration: BoxDecoration(
                         color: AppColors.kWhiteColor,
-                        borderRadius: BorderRadius.circular(7.sp)
+                        borderRadius: BorderRadius.circular(7.sp),
                       ),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
-                          // BPMChart(),
+                          SizedBox(
+                            height: 50.h,
+                            child: BPMChart(),
+                          ),
                           Align(
                             alignment: AlignmentDirectional.bottomEnd,
-                            child: Text("79 Bpm", style: Theme.of(context).textTheme.bodySmall!.copyWith(fontSize: 10.sp), textAlign: TextAlign.end,),
-                          )
+                            child: Text(
+                              "79 Bpm",
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .bodySmall!
+                                  .copyWith(fontSize: 10.sp),
+                              textAlign: TextAlign.end,
+                            ),
+                          ),
                         ],
                       ),
-                    )
+                    ),
                   ),
                 ),
                 Column(
