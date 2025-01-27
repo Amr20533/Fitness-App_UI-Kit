@@ -79,9 +79,9 @@ class _LoginLayoutState extends State<LoginLayout> {
                       SocialIcon(icon: AppAssets.apple),
                     ],
                   ),
-                  SizedBox(),
-                  SizedBox(),
-                  SizedBox(),
+                  const SizedBox(),
+                  const SizedBox(),
+                  const SizedBox(),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     spacing: 6.w,

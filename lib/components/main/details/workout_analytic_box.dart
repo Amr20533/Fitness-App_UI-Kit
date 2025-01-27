@@ -29,7 +29,8 @@ class WorkoutAnalyticBox extends StatelessWidget {
         child: Stack(
           children: [
             BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 6, sigmaY: 6),
+              filter: ImageFilter.blur(sigmaX: 16, sigmaY: 16),
+              blendMode: BlendMode.srcOver,
               child: Container(
                 color: Colors.transparent,
               ),
